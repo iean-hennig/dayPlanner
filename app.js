@@ -20,7 +20,6 @@ for (var i = 0; i < timezone.length; i++) {
     // 4. Then give each "letterBtn" a data-attribute called "data-letter".
     letterBtn.attr("data-letter", timezone[i]);
 
-    // 5. Then give each "letterBtns" a text equal to "letters[i]".
     letterBtn.text(timezone[i]);
 
     // 6. Finally, append each "letterBtn" to the "#buttons" div (provided).
