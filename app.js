@@ -10,7 +10,14 @@ var timezone = ["8:00am","9:00am","10:00","11:00am","12:00pm","1:00pm","2:00pm",
 
 for (var i = 0; i < timezone.length; i++) {
 
-   
+  var x = document.getElementById("button-addon2");
+
+  function myFunction() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "text");
+    x.setAttribute("value", timezone);
+    document.body.appendChild(x);
+  }
 
     var timezone = $("<button>");
 
@@ -26,15 +33,4 @@ for (var i = 0; i < timezone.length; i++) {
     $("#buttons").append(letterBtn);
 
   }
-
-
-    
-  
-
-
-
-
-
-
-
-});
+ });
